@@ -1,0 +1,217 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;
+            font-family:cursive}
+        body{width: 100%;background: linear-gradient(135deg,#38685a,#4f6463,black);}
+        .title1{padding: 10px 0px 10px 30px;font-weight: lighter;color: white;}
+        .title{animation: left 2s ease-out;}
+        .title1img{margin: 0px 0px 0px 30px;
+            width: 600px;height: 500px;
+            border-bottom: 150px solid #1b0107;
+        color: white;}
+        .title1img1{
+        width: 100%;height: 100%;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+        .titlep1{font-size: 25px;padding: 5px 0px 5px 10px;color: #ff5e00;}
+        .titlep2{font-size: 20px;padding: 5px 0px 0px 10px;}
+        .titlep3{color: yellow;font-size: 20px;padding: 5px 0px 0px 10px;}
+        .titlep4{color: rgb(255, 4, 234);padding: 5px 0px 0px 10px;}
+        .billbox{width: 600px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+            height: 230px;
+            background-color: white;
+        margin: 0px 0px 0px 30px;
+    display: flex;justify-content: center;align-items: center;}
+        .billbox1{width: 720px;
+            height: 210px;
+            border: 20px solid palevioletred;
+            border-radius: 10px;
+        }
+        .billp1{
+            border-bottom: 2px solid #cec9c9;
+            font-size: 20px;margin: 10px 0px 10px 0px;
+            padding-left: 10px;
+        }
+        .billp2main,.billp3main,.billp4main{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #cec9c9;
+            font-size: 20px;
+            margin: 10px 0px 10px 0px;
+            padding-left: 10px;
+    }
+    .red{color:rgb(255, 0, 0);}
+    .green{color: green;}
+    .contrestaurant{width: 650px;
+        height: 400px;
+        padding-left: 30px;
+    text-align: center;animation: right 2s ease-out;
+}
+.titleflex{display: flex;}
+.cr1{font-size: 30px;font-weight: bolder;margin-top: 10px;color:  #ffe605;text-align: center;}
+.cr2{font-size: 19px;color: white;margin-top: 10px;text-align: justify;}
+.anchor21{text-decoration: none;color: black;}
+@keyframes left{0%{transform: translateY(-100%);}
+               100%{transform: translateY(0%);}}
+@keyframes right{0%{transform: translateY(100%);}
+               100%{transform: translateY(0%);}}
+  
+
+
+@media (min-width: 1200px) {
+  .titleflex {
+    flex-direction: row;
+    align-items: start;
+  }
+
+  .billbox1 {
+    width: 95%;
+    border-width: 10px;
+  }
+
+  .contrestaurant {
+    width: 50%;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+    ;
+  }
+
+  .footercont {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+
+@media (min-width:576px) and (max-width: 1199px) {
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a, nav form, nav button {
+    margin: 5px 0px;
+  }
+ 
+
+  .title1img {
+    width: 95%;
+    height: 400px;
+    border-bottom: 150px solid black;
+  }
+  
+
+  .billbox {
+    width: 95%;
+    height: auto;
+  }
+
+  .billbox1 {
+    width: 95%;
+    height: auto;
+  }
+
+  .contrestaurant {
+    width: 95%;
+    height: auto;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .footercont, .f5 {
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .footerp1 {
+    font-size: 18px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  body {
+    font-size: 14px;
+  }
+
+  .titlep1 {
+    font-size: 20px;
+  }
+
+  .titlep2, .titlep3, .titlep4 {
+    font-size: 16px;
+  }
+
+  .billp1, .billp2main, .billp3main, .billp4main {
+    font-size: 16px;
+  }
+
+  .footerp1 {
+    font-size: 16px;
+  }
+
+  ul li {
+    font-size: 13px;
+  }
+   nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  select{margin: 5px 0px 5px 30px;width: 73%;}
+  nav a, nav form, nav button {
+    margin: 5px 0px 5px 60px;
+  }
+
+  .title1img {
+    width: 95%;
+    height: 400px;
+    border-bottom: 150px solid black;
+    
+  }
+  .titleflex{flex-direction: column;margin-right: 30px;}
+  
+
+  .billbox {
+    width: 95%;
+    height: auto;
+  }
+
+  .billbox1 {
+    width: 95%;
+    height: auto;
+  }
+
+  .contrestaurant {
+    width: 95%;
+    height: auto;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .footercont, .f5 {flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footerp1 {
+    font-size: 18px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+  .cr1{color: white;}
+}
+

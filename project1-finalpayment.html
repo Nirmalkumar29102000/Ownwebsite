@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment section</title>
+    <style>
+        *{margin: 0px;padding: 0px;box-sizing: border-box;}
+        body{
+            width: 99%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(30deg,rgba(0, 0, 0, 0.897),rgba(255, 81, 0, 0.959));
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .containerbox{
+            width: 30%;
+            height: 640px;
+            /* border: 1px solid gray; */
+            box-shadow: 10px 10px 10px rgb(0, 0, 0);
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .containerbox1{
+            width: 70%;
+            height: 300px;
+            /* border: 1px solid gray; */
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .tickcircle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: rgb(0, 12, 173);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: rotate 2s ease-in-out infinite;
+            /* backface-visibility: hidden; */
+            
+        }
+        @keyframes rotate{
+            100%{transform: rotateZ(360deg);}
+        }
+        .tick{
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            clip-path: polygon(0% 60%,15% 60%,40% 80%,85% 0%,100% 0%,40% 95%);
+        }
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 14px;
+            text-align: center;
+            color: rgb(63, 61, 61);
+        }
+        span{
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        @media screen and (min-width:576px) and (max-width:1199px) {
+            .containerbox{
+            width: 40%;
+            height: 640px;
+            }
+        }
+        @media screen and (max-width:575px){
+            .containerbox{
+                width: 70%;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div class="containerbox">
+       <div class="containerbox1">
+         <div class="tickcircle">
+            <div class="tick"></div>
+         </div>
+         <h1>Yay! Order Received</h1>
+         <p>You've saved $303 on this order<br>including $9 with <span>one</span></p>
+         
+       </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;font-family: "Satisfy", cursive;}
+.footer{width: 100%;background-color: rgb(0, 0, 0);}
+.footercont{width: 80%;background:black;
+    display: flex;gap: 150px;margin: 0px auto;}
+ .footercont p{
+    font-size: 20px;color: white;margin-top: 20px;
+  }
+   li{
+    font-size: 15px;color: gray;margin-top: 15px;
+    list-style-type: none;
+  }
+  .f5{margin-left: 10%;}
+  footer{width: 100%;background-color: rgb(31, 29, 29);display: flex;}
+  footer p,footer div{color: white;font-size: 25px;margin: 30px 5%;}
+  footer span{color: #f57600;font-weight: bold;}
+  .anchor20{text-decoration: none;color: white;}

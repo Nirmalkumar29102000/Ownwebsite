@@ -1,0 +1,382 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;font-family: "Satisfy", cursive;}
+body{
+   background-color: #8d8c8c;
+} 
+.firstbox{
+  width: 100%;
+  background-image: url(./b2.jpg);
+  background-size: 100% 100%;
+  border-radius: 10px;
+  height: 450px;
+  
+}
+
+.p1,.p2{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: bold;
+  /* color: white; */
+}
+.mainsecbox{
+  width: 100%;
+  height: 280px;
+  background-color: rgb(23, 22, 88);
+  display: flex;gap: 15%;
+  margin-top: 20px;
+}
+.dropdown{
+  width: 20%;
+  margin-left: 40px;
+}
+.dropdown input{
+  display: none;
+  height: 30px;
+  background-color: grey;
+  border-radius: 10px;
+}
+.dropdown label{
+  display: block;
+  background: rgb(47, 255, 57);
+  color: black;width: 300px;
+  padding: 10px 90px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.dropdown-content{
+  max-height: 0;
+  overflow: hidden;
+  background: #f1f1f1;
+  transition: max-height 0.4s ease-in;
+  border-radius: 5px;
+}
+.dropdown-content p {
+  padding: 5px 20px;
+  font-size: 20px;
+  color: #600097;
+  width: 100%;
+}
+.dropdown input:checked ~ .dropdown-content {
+    max-height: 180px;
+   }
+  .partners{
+    background-image: url(./partners.png);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 80px;
+    margin: 20px auto;
+  }
+  .faq{
+    width: 70%;
+    height: 50px;
+    margin: 20px auto;
+  }
+   .freq{
+    width: 100%;
+  }
+  .freq input{
+    display: none;
+    height: 30px;
+    background-color: grey;
+    border-radius: 10px;
+  }
+  .freq label{
+    display: block;
+    background: #111010;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .freq-content,.freq-content1,.freq-content2,.freq-content3,.freq-content4,.freq-content5,.freq-content6,.freq-content7{
+    max-height: 0;
+    overflow: hidden;
+    color: white;
+    background: #111010;
+    transition: all 0.4s ease-in;
+    border-radius: 5px;
+  }
+  
+  .freq p {
+    padding: 10px 30px;
+    font-size: 15px;
+    width: 100%;
+    }
+  .freq input:checked ~ .freq-content {
+    max-height: 50px; }
+    .freq input:checked ~ .freq-content1 {
+    max-height: 50px; }
+    .freq input:checked ~ .freq-content2 {
+    max-height: 50px; }
+    .freq input:checked ~ .freq-content3 {
+    max-height: 50px; }
+    .freq input:checked ~ .freq-content4 {
+    max-height: 50px; }
+    .freq input:checked ~ .freq-content5 {
+    max-height: 50px; }
+    .freq input:checked ~ .freq-content6 {
+    max-height: 50px; }
+    .freq input:checked ~ .freq-content7 {
+    max-height: 500px; }
+    ul{
+      margin-left: 30px;
+    }
+    .freq li{
+      color: white;
+    }
+  .p3{font-size: 20px;
+    margin: 20px 0px;
+    font-weight: bold;}
+.footer{
+  margin-top: 0%;
+}
+@media screen and (min-width: 1200px) {
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 12px 40px; */
+  flex-wrap: wrap;
+}
+header form {
+  display: flex;
+  align-items: center;
+}
+header select,
+header input[type="search"] {
+  padding: 8px; 
+}
+
+.firstbox {
+  text-align: center;
+}
+
+.fp1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(204, 32, 32);
+}
+
+.fp2 {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.mainsecbox {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+
+.dropdown {
+  width: 20.4%;
+}
+
+.dropdown-content {
+  display: none;
+
+}
+
+.dropdown input[type="checkbox"]:checked ~ .dropdown-content {
+  display: block;
+}
+
+.faq {
+ height: auto;
+}
+
+.footer {
+  padding: 0px;
+}
+.footercont {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+.f5 ul li {
+  line-height: 1.6;
+}
+.footerp1{
+  margin-left: 40px;
+}
+}
+
+@media screen and (max-width: 575px) {
+ nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  nav form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav select, nav input {
+    width: 68%;
+    height: 60px;
+    font-size: 14px;
+  }
+  nav select{
+    margin-left: 35px;
+    margin-bottom: 20px;
+  }
+
+  .anchor13 {
+    font-size: 28px;
+  }
+
+  .anchor2, .anchor14, .anchor7 {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+  }
+
+  .fp1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+  }
+ .firstbox{
+  height: 400px;
+ }
+  .fp2 {
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+  }
+.partners{display: block;}
+  .mainsecbox {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .dropdown {
+    width: 55%;    
+  }
+  .freq input:checked ~ .freq-content7 {
+    max-height: 1000px; }
+  .faq {
+    width: 90%;
+    height: auto;
+  }
+  
+   .footercont {
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+
+  }
+  .footer ul {
+    padding: 0;
+  }
+.footerp1{
+  text-align: center;
+}
+  .f5 ul li {
+    font-size: 13px;
+  }
+    footer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+  }
+
+  footer p, footer div {
+    margin: 10px auto;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1199px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  nav form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+   nav input {
+    width: 60%;
+    height: 45px;
+  }
+  nav select{
+    margin-left: 25px;
+    width: 60%;
+    height: 50px
+  }
+
+  .mainsecbox {
+    justify-content: center;
+    gap: 20px;
+  }
+    .fp1 {
+    font-size: 60px;
+    text-align: center;
+    
+  }
+
+  .fp2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .dropdown {
+    width: 30%;
+  }
+
+  .faq {
+    width: 85%;
+    height: auto;
+  }
+ .footercont {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+    text-align: center;
+  }
+
+  .f5 {
+    margin-right: 90px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+  }
+
+  footer p, footer div {
+    margin: 10px auto;
+    font-size: 18px;
+  }
+
+}

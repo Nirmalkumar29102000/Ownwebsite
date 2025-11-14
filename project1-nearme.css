@@ -1,0 +1,318 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+        body{background-color:#8d8c8c;}
+     .date{width: 80%;height: 200px;border-radius: 10px;margin: 20px auto;background-color: rgb(221, 176, 116);}
+    input{width:25%;height: 40px;border-radius: 10px;font-size: 15px;margin: 10px 20px;}
+    label{font-size: 20px;font-weight: bold;margin: 20px 20px;}
+    .category{display: flex;gap: 30px;}
+    .box{width:120px;height: 50px;border-radius: 10px;background-color: white;
+        display: flex;justify-content: center;align-items: center;margin: 20px 10px;
+        font-size: 15px;font-weight: bold;} 
+    .locations{width: 800px;height: 600px;background-color: white;border-radius: 10px;margin: 20px auto;background-color: rgb(179, 156, 192);}
+    .yourlocation{width: 600px;height: 50px;background-color: rgb(255, 115, 0);color: white;font-weight: bold;
+        border-radius: 10px;margin: 20px auto;display: flex;justify-content: center;align-items: center;}
+    .location1cont{display: flex;gap: 20px;}
+    .location1{width: 240px;height: 100px;border-radius: 10px;
+        background-color: rgb(245, 242, 242);margin: 20px auto;display: flex;gap: 10px;}
+        img{width: 70px;height: 70px;margin-top: 10px;}
+    .lp2{font-size: 20px;display: flex;align-items: center;font-weight: bold;font-family: cursive;}  
+      .input1{width: 95%;border: 3px solid black;height: 50px;}
+
+@media (min-width: 1200px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  nav form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .category {
+    flex-wrap: nowrap;
+  }
+
+  .locations {
+    width: 800px;
+  }
+
+  .location1cont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footercont {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  nav form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+   nav input {
+    width: 60%;
+    height: 45px;
+  }
+  nav select{
+    margin-left: 25px;
+    width: 60%;
+    height: 50px
+  }
+
+  .anchor13 {
+    font-size: 32px;
+  }
+
+  .date {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  label {
+    display: block;
+    text-align: center;
+  }
+
+  .category {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .box {
+    width: 30%;
+    height: 50px;
+    font-size: 15px;
+  }
+
+
+  .locations {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .yourlocation {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .input1 {
+    width: 90%;
+    height: 45px;
+    margin: 10px 0px 0px 50px;
+  }
+
+  .location1cont {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .location1 {
+    width: 20%;
+    height: 100px;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .lp2 {
+    font-size: 15px;
+  }
+
+
+  .footercont {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+    text-align: center;
+  }
+
+  .f5 {
+    margin-right: 90px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+  }
+
+  footer p, footer div {
+    margin: 10px auto;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  nav form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav select, nav input {
+    width: 68%;
+    height: 60px;
+    font-size: 14px;
+  }
+  nav select{
+    margin-left: 35px;
+    margin-bottom: 20px;
+  }
+
+  .anchor13 {
+    font-size: 28px;
+  }
+
+  .anchor2, .anchor14, .anchor7 {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+  }
+
+  .date {
+    width: 95%;
+    height: auto;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  label {
+    display: block;
+    font-size: 16px;
+  }
+
+  .category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .box {
+    width: 45%;
+    height: 45px;
+    font-size: 13px;
+  }
+
+
+  .locations {
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .yourlocation {
+    width: 90%;
+    font-size: 14px;
+    height: 45px;
+  }
+
+  .input1 {
+    width: 90%;
+    height: 45px;
+    margin: 10px 0px 0px 30px;
+  }
+
+  .location1cont {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+  }
+
+  .location1 {
+    width: 70%;
+    height: 90px;
+    justify-content: center;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .lp2 {
+    font-size: 18px;
+  }
+
+
+  .footercont {
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+  }
+
+  .footerp1 {
+    font-size: 18px;
+  }
+
+  .footerp2, li {
+    font-size: 14px;
+  }
+
+  .f5 {
+    margin-left: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+  }
+
+  footer p, footer div {
+    margin: 10px auto;
+    font-size: 15px;
+  }
+}
+
+
+    

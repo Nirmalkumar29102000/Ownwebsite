@@ -1,0 +1,591 @@
+ *{margin: 0px;padding: 0px;box-sizing: border-box;font-family: "Pacifico", cursive;}
+  body{
+    width: 100%;
+     background-color: #8d8c8c;
+  }
+ /* .header1{
+  font-size: 3rem;
+  color: #c40099;
+  margin: 5px 20px;
+  font-weight: bold;
+} */
+  select{
+    width: 250px;
+    margin: 5px 20px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 3px solid;
+    padding-left: 25px;
+  }
+  option{
+    font-weight: bold;
+    color: black;
+  }
+  input[type="search"]{
+    width: 350px;
+    margin: 5px 20px;
+    padding-left: 10px;
+    height: 60px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 35%;
+    justify-content: end;
+  }
+  nav > .nav1,.nav2,button{
+    font-size: 20px;
+  }
+  .nav1{
+    color: #ff7b00;
+    font-weight: bolder;
+  }
+  button{
+    width: 120px;
+    height: 45px;
+    background-color: #ff7b00;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #ff7b00;}
+   /* header end */
+   /* main content start */
+.slidebar{
+  width: 100%;
+  height: 350px;
+  border: 3px solid;
+}
+ .slide1{
+  background-image: url(./chicken.gif);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+        }
+ .head1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  
+}
+.maincontent{
+  display: flex;
+  justify-content: center;
+ 
+}
+.content{
+  width: 80%;
+}
+.variety{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+ .box{
+  width: 300px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;} 
+  .boxhead{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+  } 
+  .box:hover{
+    transform: scale(1.1);
+  }      
+ .box > img{
+  margin: 10px 20px;
+}
+  .subrestaurants{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .location{
+    font-size: 20px;
+  }
+  .head2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    }
+  .boxes{
+    width: 400px;
+    height: 250px;
+    border-bottom: 90px solid white;
+    border-radius: 10px;
+  }
+  .ir1{
+    width: 100%;
+    height: 100%;
+  }
+  .boxes:hover{
+    transform: scale(1.1);
+  }
+  .bc1,.bc2,.bc3,.bc11,.bc12,.bc13{
+    padding:3px 4px;
+  }
+  .bc1,.bc11{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .bc2,.bc12{
+    color: gray;
+    font-size: 15px;
+  }
+  .bc3,.bc13{
+    color: red;
+    font-size: 13px;
+  }
+  .head3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .locationmain{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .locat{
+    width: 300px;
+    height: 80px;
+    background-image: url(./restaurant4.png);
+    opacity: 0.7;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+  }
+  .locat1{
+    font-size: 25px;
+    text-align: center;
+  }
+  .locat2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .head5{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .moodsmain{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .moods{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+  }
+  .moods:hover{
+    transform: scale(1.1);
+  }
+  .mp{
+    margin: 25px 20px;
+  }
+  .mp1{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .head6{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .paymentmain{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .subpay{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .subpay:hover{
+    transform: scale(1.1);
+  }
+  .headpay1{
+    font-size: 23px;
+    color: rgb(146, 0, 102);
+    font-weight: bold;
+    text-align: center;
+  }
+  .headpay2{
+    font-size: 22px;
+    color: rgb(47, 47, 255);
+    font-weight: bold;
+    text-align: center;
+  }
+  .headpay3{
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+  }
+  .headpay4{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff7b00;
+  }
+  .headpay5{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+  .pb{
+    width: 150px;
+    height: 180px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .paybox1{
+    background-color: rgb(146, 0, 102);
+    margin: 20px 20px;
+  }
+  .paybox2{
+    background-color: rgb(15, 166, 177);
+    margin: 0px 20px;
+  }
+  .paybox3{
+    background-color:  brown;
+    margin: 8px 20px;
+  }
+  .paybox4{
+    background-color:  orangered;
+    margin: 8px 20px;
+  }
+  .paybox5{
+    background-color:  black;
+    margin: 0px 20px;
+  }
+  .paybox6{
+    background-color:  black;
+    margin: 0px 20px;
+  }
+  .subpay{
+    color: white;
+  }
+  .pb1,.pb3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .pb2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .pb4{
+    width: 130px;
+    height: 28px;
+    background-color: white;
+    margin: 10px auto;
+    color: black;
+    border-radius: 30px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .cardbox{
+    width: 100%;
+    background:linear-gradient(90deg,#ffc400,#ffbb00,#fafafa,#ffbb00,#ffbb00);
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .cardbox > img{
+    width: 350px;
+    height: 230px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  .cb1,.cb2{
+    margin: 20px 40px;
+  }
+  .cb11,.cb12{
+     font-weight: bolder;
+     font-size: 45px;
+     color: #f80101;
+    text-shadow: white 5px -5px 10px;
+    line-height: 0.7;
+    margin: 25px;
+  }
+  .cb13{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 25px;
+  }
+  .cb4{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(1, 29, 15, 0.993);
+    margin: 25px;
+    line-height: 0.9;
+  }
+  .dropdown,.dropdown2 {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .dropdown input,.dropdown1 input,.dropdown2 input {
+    display: none;
+  }
+  .dropdown label,.dropdown1 label,.dropdown2 label {
+    display: block;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+  }
+  .dropdown-content,.dropdown-content1,.dropdown-content2 {
+    max-height: 0;
+    overflow: hidden;
+    background: #f1f1f1;
+    transition: max-height 0.4s ease-in;
+    border-radius: 5px;
+  }
+  .dropdown-content p {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+    width: 100%;
+  }
+  .dropdown-content > .dd1,.dd2,.dd3{
+    display: flex;
+    gap: 50px;
+  }
+  .dropdown input:checked ~ .dropdown-content {
+    max-height: 200px;
+   }
+  .dropdown1 input:checked ~ .dropdown-content1 {
+    max-height: 500px;
+   }
+.dropdown2 input:checked ~ .dropdown-content2 {
+    max-height: 500px;
+   }
+  .dropdown-content1 p:nth-child(1),.dropdown-content1 p:nth-child(3),.dropdown-content1 p:nth-child(5),.dropdown-content1 p:nth-child(7)
+  {
+    font-size: 20px;
+    color: black;
+    margin: 10px 20px;
+  }
+  .dropdown-content1 p:nth-child(2),.dropdown-content1 p:nth-child(4),.dropdown-content1 p:nth-child(6),.dropdown-content1 p:nth-child(8)
+  {
+    font-size: 15px;
+    color: gray;
+    margin: 0px 20px;
+  }
+  .dropdown-content2 p:nth-child(1),.dropdown-content2 p:nth-child(3),.dropdown-content2 p:nth-child(5){
+    font-size: 20px;
+    color: black;
+    margin: 10px 20px;
+  }
+  .dropdown-content2 p:nth-child(2),.dropdown-content2 p:nth-child(4),.dropdown-content2 p:nth-child(6){
+    font-size: 15px;
+    color: gray;
+    margin: 0px 20px;
+  }
+  .dropdown-content1 > .dc1,.dropdown-content2 > .dc1{
+    display: flex;
+    gap: 60px;
+  }
+  .anchor1,.anchor2{
+    text-decoration: none;
+  }
+  .anchor3,.anchor4,.anchor5,.anchor6,.anchor8,.anchor11{
+    text-decoration: none;color: black;
+    }
+  .anchor7{
+    text-decoration: none;
+    color: white;
+    }
+  .anchor9,.anchor10{
+    text-decoration: none;
+    color: rgb(0, 11, 114);
+  }
+  .anchor12{
+    text-decoration: none;
+    color: black;
+  }
+ .anchor16{text-decoration: none;}
+
+@media screen and (min-width: 1200px) {
+  header{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 576px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    
+  }
+
+  select,
+  input[type="search"] {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  nav {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .variety,
+  .subrestaurants,
+  .locationmain,
+  .moodsmain,
+  .paymentmain {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+ .dropdown-content > .dd1,.dd2,.dd3{flex-direction: column;gap: 0px;}
+  .dc1{flex-direction: column;gap: 0px;}
+   .dropdown1 input:checked ~ .dropdown-content1 {
+    max-height: 1000px }
+    .dropdown2 input:checked ~ .dropdown-content2 {
+    max-height: 1000px; }
+    .paybox1,.paybox2,.paybox3,.paybox4,.paybox5,.paybox6{margin:0px 20px;}
+
+  .box,
+  .moods,
+  .subpay,
+  .locat,
+  .boxes {
+    width: 100%;
+  }
+
+  .cardbox {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .cardbox p{
+    font-size: 2rem;
+  }
+
+  .cardbox img {
+    width: 30%;
+  }
+
+  .footercont {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .header1 {
+    font-size: 2rem;
+  }
+
+  select,
+  input[type="search"] {
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .maincontent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .variety,
+  .subrestaurants,
+  .locationmain,
+  .moodsmain,
+  .paymentmain {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .dropdown-content > .dd1,.dd2,.dd3{flex-direction: column;gap: 0px;}
+  .dc1{flex-direction: column;gap: 0px;}
+   .dropdown1 input:checked ~ .dropdown-content1 {
+    max-height: 1000px }
+    .dropdown2 input:checked ~ .dropdown-content2 {
+    max-height: 1000px; }
+  .box,
+  .moods,
+  .subpay,
+  .locat,
+  .boxes {
+    width: 100%;
+  }
+
+  .slidebar {
+    height: 200px;
+  }
+
+  .cardbox {
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .cardbox p{
+    font-size: 2rem;
+  }
+
+  .cardbox img {
+    width: 40%;
+    height: auto;
+  }
+ 
+
+  .footercont {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+
+  footer p,
+  footer div {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+}
