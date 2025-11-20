@@ -1,6 +1,7 @@
 *{margin: 0px;padding: 0px;box-sizing: border-box;font-family: "Satisfy", cursive;}
 body{
    background-color: #8d8c8c;
+   width: 100%;
 } 
 .firstbox{
   width: 100%;
@@ -42,15 +43,18 @@ body{
   color: black;width: 300px;
   padding: 10px 90px;
   cursor: pointer;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   font-size: 25px;
 }
 .dropdown-content{
   max-height: 0;
   overflow: hidden;
   background: #f1f1f1;
+  width: 300px;
   transition: max-height 0.4s ease-in;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .dropdown-content p {
   padding: 5px 20px;
@@ -210,6 +214,9 @@ header input[type="search"] {
 }
 
 @media screen and (max-width: 575px) {
+  body{
+    width: 100%;
+  }
  nav {
     display: flex;
     flex-direction: column;
@@ -269,7 +276,7 @@ header input[type="search"] {
   }
 
   .dropdown {
-    width: 55%;    
+    width: 70%;    
   }
   .freq input:checked ~ .freq-content7 {
     max-height: 1000px; }
